@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.todo-input {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  padding: 5px 10px;
+}
+
+button {
+  cursor: pointer;
+  background-color: black;
+  color: aliceblue;
+  padding: 5px 10px;
+  border: none;
+}
+
+button:disabled {
+  background-color: rgb(179, 177, 177);
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+}
